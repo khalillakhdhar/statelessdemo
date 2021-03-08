@@ -18,7 +18,10 @@ class MystatelessWidget extends StatelessWidget {
             new Text("good morning"),
             new Text("good job"),
             */
-            new MyCard()
+            new MyCard(
+              title: new Text("I LOVE FLUTTER"),
+              icon: new Icon(Icons.favorite),
+            )
           ],
         ),
       ),
@@ -36,10 +39,7 @@ class MyCard extends StatelessWidget {
       child: new Card(
         child: new Container(
           child: new Column(
-            children: <Widget>[
-              new Text("I LOVE FLUTTER"),
-              new Icon(Icons.favorite)
-            ],
+            children: <Widget>[this.title, this.icon],
           ),
         ),
       ),
