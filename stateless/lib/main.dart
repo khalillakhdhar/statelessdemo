@@ -19,7 +19,11 @@ class MystatelessWidget extends StatelessWidget {
             new Text("good job"),
           ],
         ),
+        
       ),
     );
   }
+}
+class MyCard extends StatelessWidget{
+  MyCard()
 }
