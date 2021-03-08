@@ -37,7 +37,8 @@ class MyCard extends StatelessWidget {
         child: new Container(
           child: new Column(
             children: <Widget>[
-              new Text("hello"),
+              new Text("I LOVE FLUTTER"),
+              new Icon(Icons.favorite)
             ],
           ),
         ),
