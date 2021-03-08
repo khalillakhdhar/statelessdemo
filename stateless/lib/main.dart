@@ -38,8 +38,6 @@ class MyCard extends StatelessWidget {
           child: new Column(
             children: <Widget>[
               new Text("hello"),
-              new Text("good morning"),
-              new Text("good job"),
             ],
           ),
         ),
