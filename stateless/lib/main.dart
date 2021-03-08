@@ -22,11 +22,19 @@ class MystatelessWidget extends StatelessWidget {
             */
             new MyCard(
               title: new Text("I LOVE FLUTTER"),
-              icon: new Icon(Icons.favorite, size: 40),
+              icon: new Icon(
+                Icons.favorite,
+                size: 40,
+                color: Colors.red,
+              ),
             ),
             new MyCard(
               title: new Text("Programming is funny"),
-              icon: new Icon(Icons.computer, size: 40),
+              icon: new Icon(
+                Icons.computer,
+                size: 40,
+                color: Colors.blue,
+              ),
             ),
             new MyCard(
               title: new Text("Am looking for a better world  "),
